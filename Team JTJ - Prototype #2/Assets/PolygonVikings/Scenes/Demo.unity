@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028355, g: 0.2257148, b: 0.3069232, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -804,6 +803,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -2100,6 +2103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Base_Long_Door_02_Snow 1
       objectReference: {fileID: 0}
+    - target: {fileID: 173448, guid: 98840a50ba9afab4ba1df1883f871ce2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 480172, guid: 98840a50ba9afab4ba1df1883f871ce2, type: 3}
       propertyPath: m_RootOrder
       value: 226
@@ -2429,6 +2436,10 @@ PrefabInstance:
     - target: {fileID: 156508, guid: 46ef74217357ffa4895fef530ffb1cf0, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Platform_01_Snow 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 156508, guid: 46ef74217357ffa4895fef530ffb1cf0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 420280, guid: 46ef74217357ffa4895fef530ffb1cf0, type: 3}
       propertyPath: m_RootOrder
@@ -4101,6 +4112,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 711220066}
     m_Modifications:
+    - target: {fileID: 177358, guid: 0256e15017e583743a23c01986dcef04, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 419396, guid: 0256e15017e583743a23c01986dcef04, type: 3}
       propertyPath: m_RootOrder
       value: 186
@@ -4422,6 +4437,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 108923474}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -4500,7 +4516,6 @@ Transform:
   - {fileID: 1192111230}
   - {fileID: 452125057}
   m_Father: {fileID: 711220066}
-  m_RootOrder: 183
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &110179611 stripped
 Transform:
@@ -4639,6 +4654,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 711220066}
     m_Modifications:
+    - target: {fileID: 156508, guid: 46ef74217357ffa4895fef530ffb1cf0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 420280, guid: 46ef74217357ffa4895fef530ffb1cf0, type: 3}
       propertyPath: m_RootOrder
       value: 125
@@ -4692,6 +4711,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -5421,6 +5444,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1947337510}
     m_Modifications:
+    - target: {fileID: 147544, guid: 5ec5d0bdef903ec4fb5b50f477cedff1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 462698, guid: 5ec5d0bdef903ec4fb5b50f477cedff1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6630,6 +6657,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170520133}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -6663,7 +6691,6 @@ Transform:
   - {fileID: 1721882041}
   - {fileID: 1218405683}
   m_Father: {fileID: 711220066}
-  m_RootOrder: 272
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &171100008
 PrefabInstance:
@@ -7907,6 +7934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 5
       objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -8773,6 +8804,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1955219266}
     m_Modifications:
+    - target: {fileID: 151498, guid: a6f0959043733cb42949664227c3dbb7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 484094, guid: a6f0959043733cb42949664227c3dbb7, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -11299,6 +11334,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254502505}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.86602515, z: 0, w: 0.50000054}
   m_LocalPosition: {x: 78.51685, y: 0, z: 269.8053}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -11319,7 +11355,6 @@ Transform:
   - {fileID: 182629648}
   - {fileID: 977597910}
   m_Father: {fileID: 1013929362}
-  m_RootOrder: 415
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &256354185
 PrefabInstance:
@@ -12242,6 +12277,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 711220066}
     m_Modifications:
+    - target: {fileID: 173448, guid: 98840a50ba9afab4ba1df1883f871ce2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 480172, guid: 98840a50ba9afab4ba1df1883f871ce2, type: 3}
       propertyPath: m_RootOrder
       value: 168
@@ -12814,6 +12853,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 302623963}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.86602515, z: 0, w: 0.50000054}
   m_LocalPosition: {x: 78.51685, y: 0, z: 269.8053}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -12832,7 +12872,6 @@ Transform:
   - {fileID: 1452290977}
   - {fileID: 918306230}
   m_Father: {fileID: 1013929362}
-  m_RootOrder: 412
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &303136239
 PrefabInstance:
@@ -14552,6 +14591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 4
       objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -15688,6 +15731,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -17512,6 +17559,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 442864728}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -17523,7 +17571,6 @@ Transform:
   - {fileID: 218442476}
   - {fileID: 1095421982}
   m_Father: {fileID: 711220066}
-  m_RootOrder: 277
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &443540407
 PrefabInstance:
@@ -17668,6 +17715,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -18250,6 +18301,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 484094, guid: a6f0959043733cb42949664227c3dbb7, type: 3}
   m_PrefabInstance: {fileID: 205032364}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &460516727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 460516728}
+  m_Layer: 0
+  m_Name: ----Enemies----
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &460516728
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460516727}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.152256, y: -9.072137, z: 11.212323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &464490541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19495,6 +19577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Base_Long_02_Snow 1
       objectReference: {fileID: 0}
+    - target: {fileID: 107618, guid: 31dc2114540579e48b1cd2ea4351ab33, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 449400, guid: 31dc2114540579e48b1cd2ea4351ab33, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -19932,6 +20018,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -20532,6 +20622,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -21498,6 +21592,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1271088814}
     m_Modifications:
+    - target: {fileID: 151498, guid: a6f0959043733cb42949664227c3dbb7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 484094, guid: a6f0959043733cb42949664227c3dbb7, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -21728,6 +21826,10 @@ PrefabInstance:
     - target: {fileID: 177358, guid: 0256e15017e583743a23c01986dcef04, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Base_Door_01_Snow 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 177358, guid: 0256e15017e583743a23c01986dcef04, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 419396, guid: 0256e15017e583743a23c01986dcef04, type: 3}
       propertyPath: m_RootOrder
@@ -22130,6 +22232,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Base_Long_Door_01_Snow 3
       objectReference: {fileID: 0}
+    - target: {fileID: 161764, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 415048, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
       propertyPath: m_RootOrder
       value: 157
@@ -22415,6 +22521,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -23234,6 +23344,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603357423}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.86602515, z: 0, w: 0.50000054}
   m_LocalPosition: {x: 78.51685, y: 0, z: 269.8053}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -23251,7 +23362,6 @@ Transform:
   - {fileID: 45333028}
   - {fileID: 2056368422}
   m_Father: {fileID: 1013929362}
-  m_RootOrder: 414
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &603724294
 PrefabInstance:
@@ -25135,6 +25245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 6
       objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -26746,6 +26860,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1947337510}
     m_Modifications:
+    - target: {fileID: 165180, guid: 9cd460a9361811747a2790d0174ef82d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483016, guid: 9cd460a9361811747a2790d0174ef82d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -26869,13 +26987,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679429257}
+  serializedVersion: 2
   m_LocalRotation: {x: 0.4200261, y: -0.10022981, z: 0.04673774, w: 0.9007484}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &679430311
 PrefabInstance:
@@ -27876,6 +27994,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711220065}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -28166,7 +28285,6 @@ Transform:
   - {fileID: 366652301}
   - {fileID: 541415019}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &711491655
 PrefabInstance:
@@ -28391,6 +28509,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 578914785}
     m_Modifications:
+    - target: {fileID: 151498, guid: a6f0959043733cb42949664227c3dbb7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 484094, guid: a6f0959043733cb42949664227c3dbb7, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -29015,6 +29137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 3
       objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -29082,6 +29208,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
   m_PrefabInstance: {fileID: 724594290}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &724758610 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 183992, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+  m_PrefabInstance: {fileID: 917231414}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &724758611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724758610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ade830722482d4b80e7e7a573f8a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMoving: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  range: 10
+--- !u!195 &724758612
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724758610}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 1.3
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &725689906
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31500,6 +31673,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 278504744}
     m_Modifications:
+    - target: {fileID: 112090, guid: 921c953fe34412c4aa79f7c813bd4e2c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 491252, guid: 921c953fe34412c4aa79f7c813bd4e2c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -32202,6 +32379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Guard_Tower_01_Snow 1
       objectReference: {fileID: 0}
+    - target: {fileID: 171902, guid: 180b1edafda7d104b9de8875d7a3744a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 479778, guid: 180b1edafda7d104b9de8875d7a3744a, type: 3}
       propertyPath: m_RootOrder
       value: 241
@@ -32545,6 +32726,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 456348, guid: 0fb7e559cae3d354ebf49a97f2203f4b, type: 3}
   m_PrefabInstance: {fileID: 808124229}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &813467192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 147178, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+  m_PrefabInstance: {fileID: 909640078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &813467195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813467192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1ade830722482d4b80e7e7a573f8a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isMoving: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  range: 10
+--- !u!195 &813467196
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813467192}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 1.3
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &813954427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32776,6 +33004,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 711220066}
     m_Modifications:
+    - target: {fileID: 189244, guid: c574d4c0c30522f4387bebd997152194, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 474140, guid: c574d4c0c30522f4387bebd997152194, type: 3}
       propertyPath: m_RootOrder
       value: 229
@@ -36871,6 +37103,73 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 474880, guid: 4ff60d4d9e0d6704b85166ddda5a6cde, type: 3}
   m_PrefabInstance: {fileID: 909247544}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &909640078
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 147178, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_Name
+      value: Enemy_Grunt
+      objectReference: {fileID: 0}
+    - target: {fileID: 419640, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.5946727
+      objectReference: {fileID: 0}
+    - target: {fileID: 419640, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.07961798
+      objectReference: {fileID: 0}
+    - target: {fileID: 419640, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.03545
+      objectReference: {fileID: 0}
+    - target: {fileID: 419640, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 419640, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419640, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419640, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419640, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419640, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419640, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9527406, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7302225068ec0444eb1505e8b74f8410, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 147178, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 813467196}
+    - targetCorrespondingSourceObject: {fileID: 147178, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 813467195}
+  m_SourcePrefab: {fileID: 100100000, guid: cb4c55143b7840648a254f9d2288de23, type: 3}
 --- !u!1001 &910549011
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37060,6 +37359,73 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd6a9ab5e7b2ec4488440c51d519bf8b, type: 3}
+--- !u!1001 &917231414
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 183992, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_Name
+      value: Enemy_Chief
+      objectReference: {fileID: 0}
+    - target: {fileID: 490310, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -14.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 490310, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13807487
+      objectReference: {fileID: 0}
+    - target: {fileID: 490310, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.625076
+      objectReference: {fileID: 0}
+    - target: {fileID: 490310, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 490310, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490310, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490310, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490310, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490310, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490310, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9538472, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7302225068ec0444eb1505e8b74f8410, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 183992, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 724758612}
+    - targetCorrespondingSourceObject: {fileID: 183992, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 724758611}
+  m_SourcePrefab: {fileID: 100100000, guid: 5e2584a852ef63142b40e217afbf01bc, type: 3}
 --- !u!1001 &918306229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38060,6 +38426,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -39657,6 +40027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Guard_Tower_01_Snow 5
       objectReference: {fileID: 0}
+    - target: {fileID: 171902, guid: 180b1edafda7d104b9de8875d7a3744a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 479778, guid: 180b1edafda7d104b9de8875d7a3744a, type: 3}
       propertyPath: m_RootOrder
       value: 164
@@ -39764,6 +40138,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1077663177}
     m_Modifications:
+    - target: {fileID: 151498, guid: a6f0959043733cb42949664227c3dbb7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 484094, guid: a6f0959043733cb42949664227c3dbb7, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -40093,6 +40471,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008293638}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40137,7 +40516,6 @@ Transform:
   - {fileID: 1684593600}
   - {fileID: 726786625}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1008759156
 PrefabInstance:
@@ -40147,6 +40525,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1521616938}
     m_Modifications:
+    - target: {fileID: 151498, guid: a6f0959043733cb42949664227c3dbb7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 484094, guid: a6f0959043733cb42949664227c3dbb7, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -40207,6 +40589,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013929361}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.86602515, z: 0, w: 0.50000054}
   m_LocalPosition: {x: -194.4, y: 0, z: 202.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -40632,7 +41015,6 @@ Transform:
   - {fileID: 795722890}
   - {fileID: 1257717757}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1016385080
 PrefabInstance:
@@ -41401,6 +41783,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031941733}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -41495,7 +41878,6 @@ Transform:
   - {fileID: 493283042}
   - {fileID: 1986156737}
   m_Father: {fileID: 711220066}
-  m_RootOrder: 158
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1032144689
 PrefabInstance:
@@ -43300,6 +43682,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Base_Long_Door_01_Snow 4
       objectReference: {fileID: 0}
+    - target: {fileID: 161764, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 415048, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -44641,6 +45027,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109343003}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -44655,7 +45042,6 @@ Transform:
   - {fileID: 1960042176}
   - {fileID: 299987324}
   m_Father: {fileID: 711220066}
-  m_RootOrder: 274
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1110742436
 PrefabInstance:
@@ -44668,6 +45054,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -44717,6 +45107,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -44879,6 +45273,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 514011649}
     m_Modifications:
+    - target: {fileID: 112090, guid: 921c953fe34412c4aa79f7c813bd4e2c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 491252, guid: 921c953fe34412c4aa79f7c813bd4e2c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -45098,6 +45496,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -45941,6 +46343,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1077663177}
     m_Modifications:
+    - target: {fileID: 107282, guid: 54aa379bc3929604d80a6f6e628a81a2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 454998, guid: 54aa379bc3929604d80a6f6e628a81a2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -46884,6 +47290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 4
       objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -47677,6 +48087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 1
       objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
       value: 81
@@ -47763,6 +48177,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187350749}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.86602515, z: 0, w: 0.50000054}
   m_LocalPosition: {x: 78.51685, y: 0, z: 269.8053}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -47775,7 +48190,6 @@ Transform:
   - {fileID: 1524640135}
   - {fileID: 938857631}
   m_Father: {fileID: 1013929362}
-  m_RootOrder: 411
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1188015113
 PrefabInstance:
@@ -50322,6 +50736,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252576892}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -50336,7 +50751,6 @@ Transform:
   - {fileID: 1487762907}
   - {fileID: 113867435}
   m_Father: {fileID: 711220066}
-  m_RootOrder: 275
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1255076857
 PrefabInstance:
@@ -51256,6 +51670,10 @@ PrefabInstance:
     - target: {fileID: 161764, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Base_Long_Door_01_Snow 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 161764, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 415048, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
       propertyPath: m_RootOrder
@@ -55014,6 +55432,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361283346}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.8944285, z: 0, w: 0.44721115}
   m_LocalPosition: {x: 66.5, y: -3.56, z: 181.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -55080,7 +55499,6 @@ Transform:
   - {fileID: 1486384150}
   - {fileID: 186067943}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1361968551
 PrefabInstance:
@@ -55213,6 +55631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 10
       objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
       value: 114
@@ -55268,6 +55690,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 98246493}
     m_Modifications:
+    - target: {fileID: 165180, guid: 9cd460a9361811747a2790d0174ef82d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483016, guid: 9cd460a9361811747a2790d0174ef82d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -57138,6 +57564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Pole_01_Snow 1
       objectReference: {fileID: 0}
+    - target: {fileID: 189244, guid: c574d4c0c30522f4387bebd997152194, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 474140, guid: c574d4c0c30522f4387bebd997152194, type: 3}
       propertyPath: m_RootOrder
       value: 230
@@ -57625,6 +58055,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 565828778}
     m_Modifications:
+    - target: {fileID: 165180, guid: 9cd460a9361811747a2790d0174ef82d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483016, guid: 9cd460a9361811747a2790d0174ef82d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -60397,6 +60831,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1895754948}
     m_Modifications:
+    - target: {fileID: 165180, guid: 9cd460a9361811747a2790d0174ef82d, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 483016, guid: 9cd460a9361811747a2790d0174ef82d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -61212,6 +61650,10 @@ PrefabInstance:
     - target: {fileID: 161764, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
       propertyPath: m_Name
       value: SM_Bld_Base_Long_Door_01_Snow 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 161764, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 415048, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
       propertyPath: m_RootOrder
@@ -62404,6 +62846,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550683022}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -62420,7 +62863,6 @@ Transform:
   - {fileID: 621043219}
   - {fileID: 1828606763}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1551801968
 PrefabInstance:
@@ -64121,6 +64563,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -67406,6 +67852,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 779752282}
     m_Modifications:
+    - target: {fileID: 127920, guid: 832794eadce60254daa507984bdeebed, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 496074, guid: 832794eadce60254daa507984bdeebed, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -68693,6 +69143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 7
       objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -68753,6 +69207,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710459613}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.86602515, z: 0, w: 0.50000054}
   m_LocalPosition: {x: 78.51685, y: 0, z: 269.8053}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -68772,7 +69227,6 @@ Transform:
   - {fileID: 2132538282}
   - {fileID: 656140605}
   m_Father: {fileID: 1013929362}
-  m_RootOrder: 413
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1710577619
 PrefabInstance:
@@ -69121,6 +69575,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -70457,6 +70915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 3
       objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -70881,7 +71343,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 112030, guid: 4794571d75bb57947a3f110fddd024e4, type: 3}
       propertyPath: m_Name
-      value: Character_Warrior_02_White
+      value: Enemy_Warrior
       objectReference: {fileID: 0}
     - target: {fileID: 413296, guid: 4794571d75bb57947a3f110fddd024e4, type: 3}
       propertyPath: m_RootOrder
@@ -70928,8 +71390,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9532864, guid: 4794571d75bb57947a3f110fddd024e4, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: a177b0e6ff26a894180468c168e802cc, type: 3}
+    - target: {fileID: 9532864, guid: 4794571d75bb57947a3f110fddd024e4, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9532864, guid: 4794571d75bb57947a3f110fddd024e4, type: 3}
       propertyPath: m_Controller
@@ -72246,13 +72712,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795798705}
+  serializedVersion: 2
   m_LocalRotation: {x: -0.027732735, y: 0.8685632, z: -0.04847837, w: -0.49242136}
   m_LocalPosition: {x: 3.2398224, y: 3.7357907, z: 19.664429}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1796803978 stripped
 Transform:
@@ -73101,6 +73567,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1815236981}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -73111,7 +73578,6 @@ Transform:
   - {fileID: 1754715549}
   - {fileID: 620118923}
   m_Father: {fileID: 711220066}
-  m_RootOrder: 276
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1815682708
 PrefabInstance:
@@ -73987,6 +74453,10 @@ PrefabInstance:
     - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
@@ -75303,6 +75773,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Fence_Wood_Large_01_Snow 5
       objectReference: {fileID: 0}
+    - target: {fileID: 138276, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 402186, guid: 346d2a1b4aa86de4889f01fab83d8e95, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -75468,6 +75942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1ade830722482d4b80e7e7a573f8a24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isMoving: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
@@ -76316,6 +76791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Base_Door_01_Snow 4
       objectReference: {fileID: 0}
+    - target: {fileID: 177358, guid: 0256e15017e583743a23c01986dcef04, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 419396, guid: 0256e15017e583743a23c01986dcef04, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -76621,6 +77100,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 98246493}
     m_Modifications:
+    - target: {fileID: 147544, guid: 5ec5d0bdef903ec4fb5b50f477cedff1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 462698, guid: 5ec5d0bdef903ec4fb5b50f477cedff1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -77706,6 +78189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Prop_Village_Entrance_01_Snow 1
       objectReference: {fileID: 0}
+    - target: {fileID: 127166, guid: 9034af8f0f660e0469964bb5c38c5efe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 448776, guid: 9034af8f0f660e0469964bb5c38c5efe, type: 3}
       propertyPath: m_RootOrder
       value: 126
@@ -78132,6 +78619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Base_Door_01_Snow 2
       objectReference: {fileID: 0}
+    - target: {fileID: 177358, guid: 0256e15017e583743a23c01986dcef04, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 419396, guid: 0256e15017e583743a23c01986dcef04, type: 3}
       propertyPath: m_RootOrder
       value: 233
@@ -78410,6 +78901,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 711220066}
     m_Modifications:
+    - target: {fileID: 161764, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 415048, guid: f710ef7eabd9cf04e8641a7388d5b364, type: 3}
       propertyPath: m_RootOrder
       value: 175
@@ -78519,6 +79014,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1955219266}
     m_Modifications:
+    - target: {fileID: 107282, guid: 54aa379bc3929604d80a6f6e628a81a2, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 454998, guid: 54aa379bc3929604d80a6f6e628a81a2, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -78902,6 +79401,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1961799764}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -78949,7 +79449,6 @@ Transform:
   - {fileID: 866279181}
   - {fileID: 1638668368}
   m_Father: {fileID: 711220066}
-  m_RootOrder: 273
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1967398269
 PrefabInstance:
@@ -81557,6 +82056,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Guard_Tower_01_Snow 4
       objectReference: {fileID: 0}
+    - target: {fileID: 171902, guid: 180b1edafda7d104b9de8875d7a3744a, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 479778, guid: 180b1edafda7d104b9de8875d7a3744a, type: 3}
       propertyPath: m_RootOrder
       value: 152
@@ -82152,6 +82655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Bld_Base_Long_02_Snow 1
       objectReference: {fileID: 0}
+    - target: {fileID: 107618, guid: 31dc2114540579e48b1cd2ea4351ab33, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 449400, guid: 31dc2114540579e48b1cd2ea4351ab33, type: 3}
       propertyPath: m_RootOrder
       value: 224
@@ -82404,6 +82911,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045894559}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.86602515, z: 0, w: 0.50000054}
   m_LocalPosition: {x: 78.51685, y: 0, z: 269.8053}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -82424,7 +82932,6 @@ Transform:
   - {fileID: 586724397}
   - {fileID: 1617090731}
   m_Father: {fileID: 1013929362}
-  m_RootOrder: 416
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2046779742
 PrefabInstance:
@@ -86031,3 +86538,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 483016, guid: 9cd460a9361811747a2790d0174ef82d, type: 3}
   m_PrefabInstance: {fileID: 1294391997}
   m_PrefabAsset: {fileID: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 679429259}
+  - {fileID: 1361283347}
+  - {fileID: 1013929362}
+  - {fileID: 711220066}
+  - {fileID: 1795798707}
+  - {fileID: 1008293639}
+  - {fileID: 1550683023}
+  - {fileID: 460516728}
+  - {fileID: 1765093318}
+  - {fileID: 917231414}
+  - {fileID: 909640078}
