@@ -53,7 +53,7 @@ public class EnemyPatrolAI : MonoBehaviour
             }
         }
 
-        if (Vector3.Distance(transform.position, destPoint) < 4)
+        if (Vector3.Distance(transform.position, destPoint) < 10)
         {
             walkedToPoint = false;
         }
@@ -74,4 +74,12 @@ public class EnemyPatrolAI : MonoBehaviour
             walkedToPoint = true;
         }
     }
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+    //    if(collision.gameObject.CompareTag("obstacle"))
+    //    {
+    //        walkedToPoint = false ;            
+    //    }
+    //}
 }
