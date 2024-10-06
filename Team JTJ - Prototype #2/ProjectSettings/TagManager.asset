@@ -4,12 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
   - CinemachineTarget
   - Ground
-=======
-  - obstacle
->>>>>>> Jen's-AI
   layers:
   - Default
   - TransparentFX
@@ -17,8 +13,8 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
-  - Player
+  - 
+  - 
   - 
   - 
   - 
