@@ -9,14 +9,22 @@ public class EnemyPatrolAI : MonoBehaviour
     NavMeshAgent agent;
     private Animator anim;
 
-    public bool isMoving;
+    public bool isMoving;    
 
     [SerializeField] LayerMask groundLayer, playerLayer;
 
     //patrol 
     Vector3 destPoint;
     bool walkedToPoint;
-    [SerializeField] float range;
+    bool playerInSight;
+    bool playerInCoughtRange;
+
+    public int distToChange;
+
+    [SerializeField] float range;   
+    [SerializeField] float playerRange;
+    [SerializeField] float catchRange;
+
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +40,22 @@ public class EnemyPatrolAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Patrol();
+        playerInSight = Physics.CheckSphere(transform.position, playerRange, playerLayer);
+        playerInCoughtRange = Physics.CheckSphere(transform.position, catchRange, playerLayer);
+
+        if(!playerInSight && !playerInCoughtRange) Patrol();
+        if (playerInSight && !playerInCoughtRange) Chase();
+        if (playerInSight && playerInCoughtRange) Catch();
+    }
+
+    private void Chase()
+    {
+        agent.SetDestination(player.transform.position);
+    }
+
+    private void Catch()
+    {
+
     }
 
     private void Patrol()
@@ -53,7 +76,7 @@ public class EnemyPatrolAI : MonoBehaviour
             }
         }
 
-        if (Vector3.Distance(transform.position, destPoint) < 10)
+        if (Vector3.Distance(transform.position, destPoint) < distToChange)
         {
             walkedToPoint = false;
         }
