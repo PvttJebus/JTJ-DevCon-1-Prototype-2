@@ -1,6 +1,6 @@
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
-using UnityEngine.InputSystem;
+//using UnityEngine.InputSystem;
 #endif
 
 namespace StarterAssets
@@ -21,28 +21,28 @@ namespace StarterAssets
 		public bool cursorInputForLook = true;
 
 #if ENABLE_INPUT_SYSTEM
-		public void OnMove(InputValue value)
-		{
-			MoveInput(value.Get<Vector2>());
-		}
+		//public void OnMove(InputValue value)
+		//{
+		//	MoveInput(value.Get<Vector2>());
+		//}
 
-		public void OnLook(InputValue value)
-		{
-			if(cursorInputForLook)
-			{
-				LookInput(value.Get<Vector2>());
-			}
-		}
+		//public void OnLook(InputValue value)
+		//{
+		//	if(cursorInputForLook)
+		//	{
+		//		LookInput(value.Get<Vector2>());
+		//	}
+		//}
 
-		public void OnJump(InputValue value)
-		{
-			JumpInput(value.isPressed);
-		}
+		//public void OnJump(InputValue value)
+		//{
+		//	JumpInput(value.isPressed);
+		//}
 
-		public void OnSprint(InputValue value)
-		{
-			SprintInput(value.isPressed);
-		}
+		//public void OnSprint(InputValue value)
+		//{
+		//	SprintInput(value.isPressed);
+		//}
 #endif
 
 
