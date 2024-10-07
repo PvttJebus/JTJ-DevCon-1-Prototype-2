@@ -60515,6 +60515,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 438482, guid: 76517d61edef32a4d8548bb025f17d99, type: 3}
   m_PrefabInstance: {fileID: 1468230748}
   m_PrefabAsset: {fileID: 0}
+<<<<<<<< HEAD:Team JTJ - Prototype #2/Assets/PolygonVikings/Scenes/Demo.unity
 --- !u!1001 &1469166025
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60533,7 +60534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4328699903341532390, guid: 4cb8c75e5aa864c4f9a14e036c6ed7d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -25.8
+      value: -25.69
       objectReference: {fileID: 0}
     - target: {fileID: 4328699903341532390, guid: 4cb8c75e5aa864c4f9a14e036c6ed7d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -60572,6 +60573,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4cb8c75e5aa864c4f9a14e036c6ed7d2, type: 3}
+========
+>>>>>>>> f1444532021fc190ed8ad55c04364e0c9a16ec40:Team JTJ - Prototype #2/Assets/Scenes/Level.unity
 --- !u!1001 &1470336686
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86831,4 +86834,7 @@ SceneRoots:
   - {fileID: 139383313}
   - {fileID: 1330123084}
   - {fileID: 122275373}
+<<<<<<<< HEAD:Team JTJ - Prototype #2/Assets/PolygonVikings/Scenes/Demo.unity
   - {fileID: 1469166025}
+========
+>>>>>>>> f1444532021fc190ed8ad55c04364e0c9a16ec40:Team JTJ - Prototype #2/Assets/Scenes/Level.unity
