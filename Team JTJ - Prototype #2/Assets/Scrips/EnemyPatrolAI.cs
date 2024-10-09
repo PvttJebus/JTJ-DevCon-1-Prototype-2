@@ -91,7 +91,6 @@ public class EnemyPatrolAI : MonoBehaviour
         destPoint = new Vector3(transform.position.x + x, transform.position.y, transform.position.z + z);
               
         
-
         if (Physics.Raycast(destPoint, Vector3.down, groundLayer))
         {
             walkedToPoint = true;
