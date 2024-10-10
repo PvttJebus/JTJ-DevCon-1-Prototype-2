@@ -49,3 +49,4 @@ Our vision focuses on a game featuring Nora, A fierce mother of the Lothbrok cla
 ## Link Dump (Resources)
 - [Third Person Controller | Unity Asset Store](https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-updates-in-new-charactercontroller-pa-196526)
 - [Viking Village / models / terrain / etc. | Unity Asset Store](https://assetstore.unity.com/packages/3d/environments/fantasy/polygon-vikings-low-poly-3d-art-by-synty-85664)
+- [AI Chasing Enemy](https://www.youtube.com/watch?v=xtJgi8SblIk&t=348s)
