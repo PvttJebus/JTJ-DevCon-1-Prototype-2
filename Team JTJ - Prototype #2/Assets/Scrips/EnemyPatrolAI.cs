@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class EnemyPatrolAI : MonoBehaviour
 {
     private GameObject player;
-    NavMeshAgent agent;
+    private NavMeshAgent agent;
     private Animator anim;
 
     public bool isMoving;    
@@ -50,12 +50,12 @@ public class EnemyPatrolAI : MonoBehaviour
 
     private void Chase()
     {
-        agent.SetDestination(player.transform.position);
+      agent.SetDestination(player.transform.position);
     }
 
     private void Catch()
     {
-
+        Debug.Log("Catched");
     }
 
     private void Patrol()
@@ -89,8 +89,8 @@ public class EnemyPatrolAI : MonoBehaviour
         //anim.SetBool("isWalking", true);
 
         destPoint = new Vector3(transform.position.x + x, transform.position.y, transform.position.z + z);
-              
-        
+                     
+
         if (Physics.Raycast(destPoint, Vector3.down, groundLayer))
         {
             walkedToPoint = true;
