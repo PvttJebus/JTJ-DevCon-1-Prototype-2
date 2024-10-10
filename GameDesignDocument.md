@@ -18,7 +18,7 @@ Tree Bear Interactive, Sony Interactive Entertainment
 ---
 ## Móðir - Mood Board
 
-![Móðir - Mood Board](https://i.imgur.com/wjG7gYh_d.jpeg)
+![Móðir - Mood Board](https://i.postimg.cc/qRXJXPV6/Modor-Mood-Board.jpg)
 
 ### Games included in Mood Board
 - **Game:** Assassin's Creed Valhalla | **Reason for Including:** Similar theme, perspective, Gameplay
