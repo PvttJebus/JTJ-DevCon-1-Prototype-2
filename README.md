@@ -12,5 +12,9 @@
 - D : Move right
 
 ---
+## Commentary video
+[Team JTJ Prototype 2 Commentary video](https://youtu.be/7EioQAyW7JQ)
+
+---
 
 This Repositary was created by team JTJ (team #2) for Mohawk Colleges Game Design program. Team members include Trevor (TJ) Beckham, Jennifer Rodriguez Corpas, and Jayce Gagui.
